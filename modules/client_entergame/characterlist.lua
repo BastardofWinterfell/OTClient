@@ -48,7 +48,7 @@ local function tryLogin(charInfo, tries)
     g_game.loginWorld(G.account, G.password, charInfo.worldName, charInfo.worldHost, charInfo.worldPort,
                       charInfo.characterName, G.authenticatorToken, G.sessionKey)
 
-    loadBox = displayCancelBox(tr('Please wait'), tr('Connecting to game server...'))
+    loadBox = displayCancelBox(tr('Connecting'), tr('Connecting to the game world. Please wait.'))
     connect(loadBox, {
         onCancel = function()
             loadBox = nil
@@ -166,7 +166,7 @@ end
 
 function onGameUpdateNeeded(signature)
     CharacterList.destroyLoadBox()
-    errorBox = displayErrorBox(tr('Update needed'), tr('Enter with your account again to update your client.'))
+    errorBox = displayErrorBox(tr('Update Available'), tr('Enter your account login information again to update the client.'))
     errorBox.onOk = function()
         errorBox = nil
         CharacterList.showAgain()
@@ -388,9 +388,9 @@ function CharacterList.create(characters, account, otui)
         end
     elseif account.subStatus == SubscriptionStatus.Premium then
         if account.premDays == 0 or account.premDays == 65535 then
-            accountStatusLabel:setText(('%s%s'):format(tr('Gratis Premium Account'), status))
+            accountStatusLabel:setText(('%s%s'):format(tr('Premium Account'), status))
         else
-            accountStatusLabel:setText(('%s%s'):format(tr('Premium Account (%s) days left', account.premDays), status))
+            accountStatusLabel:setText(('%s%s'):format(tr('Premium Account (%s days left)', account.premDays), status))
         end
         if accountStatusIcon ~= nil then
             accountStatusIcon:setImageSource('/images/game/entergame/premium')
@@ -485,7 +485,7 @@ function CharacterList.doLogin()
         end
         tryLogin(charInfo)
     else
-        displayErrorBox(tr('Error'), tr('You must select a character to login!'))
+        displayErrorBox(tr('Error'), tr('You must select a character to enter the game world.'))
     end
 end
 
