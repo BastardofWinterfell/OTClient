@@ -1,3 +1,6 @@
+if g_game.getClientVersion() < 1255 then return end
+-- quivers were introduced in version 12.55
+
 local quiverSlot = modules.game_inventory.getSlot5() or ""
 local label = quiverSlot.count
 
