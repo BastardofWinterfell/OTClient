@@ -17,7 +17,7 @@ Panel
     anchors.bottom: parent.bottom
     text-align: center
     text-auto-resize: true
-    width: 120
+    width: 0
     padding: 2
     color: #ffffff
     font: verdana-11px-monochrome
