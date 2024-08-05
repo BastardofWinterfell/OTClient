@@ -28,19 +28,6 @@ Panel
   anchors.bottom: parent.bottom
   anchors.horizontalCenter: parent.horizontalCenter
   image-source: /images/ui/panel_top
-  
-  UIWidget
-    phantom: true
-    anchors.bottom: parent.bottom
-    anchors.horizontalCenter: parent.horizontalCenter
-    text-align: center
-    text-auto-resize: true
-    color: #e98d02
-    margin-bottom: 110
-    text: OTClient Redemption
-    font: verdana-11px-rounded
-    font-scale: 4
-    shader: Map - Party
 
   MiniQtScrollableWindow
     id: showOffWindow
@@ -52,7 +39,7 @@ Panel
 
     Label
       id: showOffWindowText
-      !text: tr('Random Hit')
+      !text: tr('Random Hint')
       font: verdana-11px-antialised
       text-offset: 0 2
       text-align: top
