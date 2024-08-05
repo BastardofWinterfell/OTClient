@@ -8,6 +8,14 @@ Services = {
     --websites = "http://localhost/?subtopic=accountmanagement", --./client_entergame "Forgot password and/or email"
 }
 
+Servers_init = {
+    ["zealonline.servegame.com"] = {
+        ["port"] = 7171,
+        ["protocol"] = 1041,
+        ["httpLogin"] = false
+    }
+}
+
 --[[ Servers_init = {
     ["http://ip/login.php"] = {
         ["port"] = 80,
@@ -22,9 +30,9 @@ Services = {
 
 } ]]
 
-g_app.setName("OTClient - Redemption");
-g_app.setCompactName("otclient");
-g_app.setOrganizationName("otcr");
+g_app.setName("OTClient");
+g_app.setCompactName("OTC");
+g_app.setOrganizationName("OTClient");
 
 g_app.hasUpdater = function()
     return (Services.updater and Services.updater ~= "" and g_modules.getModule("updater"))
@@ -62,7 +70,7 @@ end
 g_resources.addSearchPath(g_resources.getWorkDir() .. 'mods', true)
 
 -- setup directory for saving configurations
-g_resources.setupUserWriteDir(('%s/'):format(g_app.getCompactName()))
+g_resources.setupUserWriteDir('/') -- ('%s/'):format(g_app.getCompactName())
 
 -- search all packages
 g_resources.searchAndAddPackages('/', '.otpkg', true)
@@ -106,7 +114,7 @@ local function loadModules()
     end
 
     -- uncomment the line below so that modules are reloaded when modified. (Note: Use only mod dev)
-    -- g_modules.enableAutoReload()
+    g_modules.enableAutoReload()
 end
 
 -- run updater, must use data.zip
