@@ -33,7 +33,7 @@ MiniWindow
     ComboBox
       id: config
       &menuScroll: true
-      &menuHeight: 450
+      &menuHeight: 25
       &menuScrollStep: 100
       &parentWidth: true
       anchors.top: parent.top
@@ -78,7 +78,7 @@ MiniWindow
       text-wrap: true
       text-auto-resize: true
       text-align: center
-      !text: tr('Status: waiting')
+      !text: tr('Status: Waiting')
       margin-left: 3
       margin-right: 3
 
@@ -89,13 +89,13 @@ MiniWindow
         text:
         margin-top: -13
 
-    HorizontalSeparator
-      anchors.left: parent.left
-      anchors.right: parent.right
-      anchors.top: prev.bottom
-      margin-top: 3
-      margin-left: 2
-      margin-right: 2
+    //HorizontalSeparator
+      //anchors.left: parent.left
+      //anchors.right: parent.right
+      //anchors.top: prev.bottom
+      //margin-top: 3
+      //margin-left: 2
+      //margin-right: 2
 
     Panel
       anchors.top: prev.bottom

@@ -58,8 +58,11 @@ UI.Container = function(callback, unique, parent, widget)
       itemsToShow = itemsToShow + 5 - itemsToShow % 5
     end
     widget.items:destroyChildren()
-    for i = 1, itemsToShow do
+    for i = 0, itemsToShow do
       local widget = g_ui.createWidget("BotItem", widget.items)
+	  if i == 0 then
+        widget:setImageSource("/images/ui/item-blessed")
+      end
       if type(items[i]) == 'number' then
         items[i] = { id = items[i], count = 1 }
       end

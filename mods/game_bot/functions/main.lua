@@ -94,7 +94,7 @@ context.macro = function(timeout, name, hotkey, callback, parent)
     if hotkey:len() > 0 then
       text = name .. " [" .. hotkey .. "]"
     end
-    macro.switch = context.addSwitch("macro_" .. (#context._macros + 1), text, macro.toggle, parent)
+    --macro.switch = context.addSwitch("macro_" .. (#context._macros + 1), text, macro.toggle, parent)
 
     -- load state
     if context.storage._macros[name] == true then

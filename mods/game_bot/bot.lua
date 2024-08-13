@@ -39,8 +39,9 @@ function init()
   botButton:setOn(false)
   botButton:hide()
 
-  botWindow = g_ui.loadUI('bot', modules.game_interface.getLeftPanel())
+  botWindow = g_ui.loadUI('bot', modules.game_interface.getLeftExtraPanel())
   botWindow:setup()
+  botButton:setOn(true)
 
   contentsPanel = botWindow.contentsPanel
   configList = contentsPanel.config
@@ -181,7 +182,7 @@ function refresh()
 
   if not g_game.isOnline() or not settings[index].enabled then
     statusLabel:setOn(true)
-    statusLabel:setText("Status: disabled\nPress off button to enable")
+    statusLabel:setText("Status: Disabled")
     return
   end
 
@@ -190,12 +191,13 @@ function refresh()
   -- storage
   botStorage = {}
 
-  local path = "/bot/" .. configName .. "/storage/"
+  local profile = g_settings.getNumber('profile')
+  local path = "/bot/" .. configName .. "/storage/profile_".. profile .."/"
   if not g_resources.directoryExists(path) then
     g_resources.makeDir(path)
   end
 
-  botStorageFile = path.."profile_" .. g_settings.getNumber('profile') .. ".json"
+  botStorageFile = path.."UserSettings.json"
   if g_resources.fileExists(botStorageFile) then
     local status, result = pcall(function()
       return json.decode(g_resources.readFileContents(botStorageFile))
@@ -255,8 +257,6 @@ function toggle()
   else
     botWindow:open()
     botButton:setOn(true)
-
-    modules.game_interface.checkAndOpenLeftPanel()
   end
 end
 
