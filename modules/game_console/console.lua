@@ -339,7 +339,7 @@ function switchChat(enabled)
 
     if enabled then
         unbindMovingKeys()
-        consoleToggleChat:setTooltip(tr('Disable chat mode, allow to walk using WASD'))
+        consoleToggleChat:setTooltip(tr('Disable chat mode to walk using WASD'))
     else
         bindMovingKeys()
         consoleToggleChat:setTooltip(tr('Enable chat mode'))
@@ -1338,6 +1338,14 @@ function sendMessage(message, tab)
     local chatCommandPrivate
     local chatCommandPrivateReady
     local chatCommandMessage
+	
+	-- player to NPC talk
+    chatCommandMessage = message:match("^%#[n|N] (.*)")
+    if chatCommandMessage ~= nil then
+      chatCommandSayMode = 'privatePlayerToNpc'
+      message = chatCommandMessage
+	  channel = 0
+    end
 
     -- player used yell command
     chatCommandMessage = message:match('^%#[y|Y] (.*)')
