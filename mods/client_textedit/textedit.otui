@@ -19,7 +19,7 @@ TextEditButtons < Panel
 
 TextEditWindow < MainWindow
   id: textedit
-  !text: tr("Edit text")
+  !text: tr("Edit Text")
   layout:
     type: verticalBox
     fit-children: true

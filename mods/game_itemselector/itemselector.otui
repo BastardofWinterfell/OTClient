@@ -1,7 +1,7 @@
 ItemSelectorWindow < MainWindow
   id: itemSelector
   size: 260 120
-  !text: tr("Select item")
+  !text: tr("Select Item")
 
   Item
     id: item
