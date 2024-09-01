@@ -150,7 +150,7 @@ CharacterWidget < UIWidget
 
 MainWindow
   id: charactersWindow
-  !text: tr('Character List')
+  !text: tr('Select Character')
   visible: false
   @onEnter: CharacterList.doLogin()
   @onEscape: CharacterList.hide(true)
