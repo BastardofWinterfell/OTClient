@@ -82,7 +82,7 @@ local function onCharacterList(protocol, characters, account, otui)
         local lastMotdNumber = g_settings.getNumber('motd')
         if G.motdNumber and G.motdNumber ~= lastMotdNumber then
             g_settings.set('motd', G.motdNumber)
-            motdWindow = displayInfoBox(tr('Message of the day'), G.motdMessage)
+            motdWindow = displayInfoBox(tr('Message of the Day'), G.motdMessage)
             connect(motdWindow, {
                 onOk = function()
                     CharacterList.show()
@@ -105,7 +105,7 @@ local function onUpdateNeeded(protocol, signature)
         local cancelFunc = EnterGame.show
         EnterGame.updateFunc(signature, continueFunc, cancelFunc)
     else
-        local errorBox = displayErrorBox(tr('Update needed'), tr('Your client needs updating, try redownloading it.'))
+        local errorBox = displayErrorBox(tr('Update Required'), tr('Your client must be updated. Try redownloading it.'))
         connect(errorBox, {
             onOk = EnterGame.show
         })
@@ -116,11 +116,11 @@ local function updateLabelText()
     if enterGame:getChildById('clientComboBox') and tonumber(enterGame:getChildById('clientComboBox'):getText()) > 1080 then
         enterGame:setText("Journey Onwards")
         enterGame:getChildById('emailLabel'):setText("Email:")
-        enterGame:getChildById('rememberEmailBox'):setText("Remember Email:")
+        enterGame:getChildById('rememberEmailBox'):setText("Remember Email")
     else
         enterGame:setText("Enter Game")
-        enterGame:getChildById('emailLabel'):setText("Acc Name:")
-        enterGame:getChildById('rememberEmailBox'):setText("Remember password:")
+        enterGame:getChildById('emailLabel'):setText("Account:")
+        enterGame:getChildById('rememberEmailBox'):setText("Remember Password")
     end
 end
 
@@ -582,9 +582,9 @@ function EnterGame.tryHttpLogin(clientVersion, httpLogin)
     end
 
     if not host then
-        loadBox = displayCancelBox(tr('Please wait'), tr('ERROR , try adding \n- ip/login.php \n- Enable HTTP login'))
+        loadBox = displayCancelBox(tr('Error'), tr('Enable HTTP login and try again.'))
     else
-        loadBox = displayCancelBox(tr('Please wait'), tr('Connecting to login server...\nServer: [%s]',
+        loadBox = displayCancelBox(tr('Connecting'), tr('Connecting to login server. Server: [%s]',
             host .. ":" .. tostring(G.port) .. path))
     end
 
@@ -688,7 +688,7 @@ function EnterGame.doLogin()
     EnterGame.hide()
 
     if g_game.isOnline() then
-        local errorBox = displayErrorBox(tr('Login Error'), tr('Cannot login while already in game.'))
+        local errorBox = displayErrorBox(tr('Error'), tr('Cannot login while already in game. Please logout first and try again.'))
         connect(errorBox, {
             onOk = EnterGame.show
         })
@@ -709,7 +709,7 @@ function EnterGame.doLogin()
         protocolLogin.onCharacterList = onCharacterList
         protocolLogin.onUpdateNeeded = onUpdateNeeded
 
-        loadBox = displayCancelBox(tr('Please wait'), tr('Connecting to login server...'))
+        loadBox = displayCancelBox(tr('Connecting'), tr('Connecting to login server. Please wait.'))
         connect(loadBox, {
             onCancel = function(msgbox)
                 loadBox = nil
@@ -736,7 +736,7 @@ end
 
 function EnterGame.displayMotd()
     if not motdWindow then
-        motdWindow = displayInfoBox(tr('Message of the day'), G.motdMessage)
+        motdWindow = displayInfoBox(tr('Message of the Day'), G.motdMessage)
         motdWindow.onOk = function()
             motdWindow = nil
         end
@@ -766,11 +766,13 @@ function EnterGame.setUniqueServer(host, port, protocol, windowWidth, windowHeig
     hostTextEdit:setText(host)
     hostTextEdit:setVisible(false)
     hostTextEdit:setHeight(0)
+	hostTextEdit:setMarginTop(0)
 
     local portTextEdit = enterGame:getChildById('serverPortTextEdit')
     portTextEdit:setText(port)
     portTextEdit:setVisible(false)
     portTextEdit:setHeight(0)
+	portTextEdit:setMarginTop(0)
 
     local authenticatorTokenTextEdit = enterGame:getChildById('authenticatorTokenTextEdit')
     authenticatorTokenTextEdit:setText('')
@@ -785,41 +787,58 @@ function EnterGame.setUniqueServer(host, port, protocol, windowWidth, windowHeig
     clientBox:setCurrentOption(tonumber(protocol))
     clientBox:setVisible(false)
     clientBox:setHeight(0)
+	clientBox:setMarginTop(0)
 
     local serverLabel = enterGame:getChildById('serverLabel')
     serverLabel:setVisible(false)
     serverLabel:setHeight(0)
+	serverLabel:setMarginTop(0)
 
     local portLabel = enterGame:getChildById('portLabel')
     portLabel:setVisible(false)
     portLabel:setHeight(0)
+	portLabel:setMarginTop(0)
 
     local clientLabel = enterGame:getChildById('clientLabel')
     clientLabel:setVisible(false)
     clientLabel:setHeight(0)
+	clientLabel:setMarginTop(0)
+	
+	local clientComboBox = enterGame:getChildById('clientComboBox')
+    clientComboBox:setVisible(false)
+    clientComboBox:setHeight(0)
+	clientComboBox:setMarginTop(0)
 
     local httpLoginBox = enterGame:getChildById('httpLoginBox')
     httpLoginBox:setVisible(false)
     httpLoginBox:setHeight(0)
+	httpLoginBox:setMarginTop(0)
 
     local serverListButton = enterGame:getChildById('serverListButton')
     serverListButton:setVisible(false)
     serverListButton:setHeight(0)
     serverListButton:setWidth(0)
+	serverListButton:setMarginTop(0)
 
     local rememberEmailBox = enterGame:getChildById('rememberEmailBox')
     rememberEmailBox:setMarginTop(5)
+	
+	local autoLoginBox = enterGame:getChildById('autoLoginBox')
+    autoLoginBox:setVisible(false)
+    autoLoginBox:setHeight(0)
+	autoLoginBox:setMarginTop(0)
 
     if not windowWidth then
-        windowWidth = 380
+        windowWidth = 320
     end
     enterGame:setWidth(windowWidth)
-    if not windowHeight then
-        windowHeight = 210
+    
+	if not windowHeight then
+        windowHeight = 143
     end
-
     enterGame:setHeight(windowHeight)
-    enterGame.disableToken = true
+    
+	enterGame.disableToken = true
 end
 
 function EnterGame.setServerInfo(message)
