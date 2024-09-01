@@ -13,6 +13,7 @@ context.manapercent = function()
       .player:getMana() * 100 / context.player:getMaxMana())
   end
 end
+context.mppercent = context.manapercent
 context.maxhp = function() return context.player:getMaxHealth() end
 context.maxmana = function() return context.player:getMaxMana() end
 context.hpmax = function() return context.player:getMaxHealth() end
