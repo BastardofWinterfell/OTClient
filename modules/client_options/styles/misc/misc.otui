@@ -1,15 +1,15 @@
 UIWidget
   anchors.fill: parent
   visible: false
-  SmallReversedQtPanel
-    anchors.left: parent.left
-    anchors.right: parent.right
-    anchors.top: parent.top
-    height: 22
+  //SmallReversedQtPanel
+    //anchors.left: parent.left
+    //anchors.right: parent.right
+    //anchors.top: parent.top
+    //height: 22
 
-    OptionCheckBox
-      id: autoChaseOverride
-      !text: tr('Allow auto chase override')
+    //OptionCheckBox
+      //id: autoChaseOverride
+      //!text: tr('Allow auto chase override')
 
   SmallReversedQtPanel
     anchors.left: parent.left
@@ -18,7 +18,7 @@ UIWidget
     height: 55
     margin-top: 10
     Label
-      text: Client user features profile
+      text: User Profile
     ComboBox
       id: profile
       margin-top: 3
