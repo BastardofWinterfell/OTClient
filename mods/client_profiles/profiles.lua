@@ -136,7 +136,7 @@ function load()
         return json.decode(g_resources.readFileContents(file))
     end)
     if not status then
-        return g_logger.warning(
+        return onError(
                    "Error while reading profiles file. To fix this problem, delete profiles.json. Details: " ..
                        result)
     end
