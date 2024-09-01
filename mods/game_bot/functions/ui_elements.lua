@@ -55,7 +55,7 @@ UI.Container = function(callback, unique, parent, widget)
     end
     local itemsToShow = math.max(10, #items + 2)
     if itemsToShow % 5 ~= 0 then
-      itemsToShow = itemsToShow + 5 - itemsToShow % 5
+      itemsToShow = math.min((itemsToShow + 5 - itemsToShow % 5) - 1, 999)
     end
     widget.items:destroyChildren()
     for i = 0, itemsToShow do
