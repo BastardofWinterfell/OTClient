@@ -42,6 +42,10 @@ context.addTab = function(name)
     for k,tab in pairs(context.tabs.tabs) do
       tab:setFont('small-9px')
     end
+  else
+    for k,tab in pairs(context.tabs.tabs) do
+      tab:setFont('verdana-11px-rounded')
+    end
   end
 
   return newTab
