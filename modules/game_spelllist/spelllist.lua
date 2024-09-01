@@ -262,8 +262,18 @@ function updateSpelllist()
         local tmpLabel = spellList:getChildById(spell)
 
         local localPlayer = g_game.getLocalPlayer()
+		local pVocation = localPlayer:getVocation()
+		if pVocation == 4 then -- druid
+			vocId = 6
+		elseif pVocation == 3 then -- sorcerer
+			vocId = 5
+		elseif pVocation == 2 then -- paladin
+			vocId = 7
+		elseif pVocation == 1 then -- knight
+			vocId = 8
+		end
         if (not (filters.level) or info.level <= localPlayer:getLevel()) and
-            (not (filters.vocation) or table.find(info.vocations, localPlayer:getVocation())) and
+            (not (filters.vocation) or table.find(info.vocations, vocId)) and
             (filters.vocationId == FILTER_VOCATION_ANY or table.find(info.vocations, filters.vocationId) or
                 table.find(info.vocations, filters.vocationId + 4)) and
             (filters.groupId == FILTER_GROUP_ANY or info.group[filters.groupId]) and
