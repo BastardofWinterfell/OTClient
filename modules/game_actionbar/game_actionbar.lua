@@ -677,7 +677,8 @@ function setupHotkeys()
                 end
             elseif slot.text then
                 if slot.autoSend then
-                    g_game.talk(slot.text)
+                    --g_game.talk(slot.text)
+					modules.game_console.sendMessage(slot.text)
                 else
                     if not modules.game_console.isChatEnabled() then
                         modules.game_console.switchChatOnCall()
