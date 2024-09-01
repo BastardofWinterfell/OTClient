@@ -59,6 +59,7 @@ TopMenuPanel
     anchors.verticalCenter: parent.verticalCenter
     anchors.horizontalCenter: parent.horizontalCenter
     size: 100 32
+    visible: false
 
     Panel
       image-source: /images/icons/icon_players

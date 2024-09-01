@@ -82,8 +82,10 @@ function init()
     rightGameButtonsPanel = topMenu:getChildById('rightGameButtonsPanel')
     pingLabel = topMenu:getChildById('pingLabel')
     fpsLabel = topMenu:getChildById('fpsLabel')
-
-    topLeftOnlinePlayersLabel = topMenu:recursiveGetChildById('topLeftOnlinePlayersLabel')
+	if Services.status then
+		topLeftOnlinePlayers = topMenu:recursiveGetChildById('topLeftOnlinePlayers')
+		topLeftOnlinePlayersLabel = topMenu:recursiveGetChildById('topLeftOnlinePlayersLabel')
+	end
 
     topLeftDiscordStreamersLabel = topMenu:recursiveGetChildById('topLeftDiscordStreamersLabel')
     topLeftYoutubeViewersLabel = topMenu:recursiveGetChildById('topLeftYoutubeViewersLabel')
@@ -95,7 +97,7 @@ function init()
     g_keyboard.bindKeyDown('Ctrl+Shift+T', toggle)
     if Services.websites then
         managerAccountsButton = modules.client_topmenu.addTopRightRegularButton('hotkeysButton', tr('Manage Account'),
-            nil, openManagerAccounts)
+            nil, openManagerAccounts, 1)
     end
     if g_game.isOnline() then
         online()
