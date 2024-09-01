@@ -29,7 +29,7 @@ function online()
   load()
 
   if not index then
-    setProfileOption(getProfileFromSettings() or 1)
+    setProfileOption(getProfileFromSettings() or 10)
   end
 
   -- create main settings dir
@@ -137,7 +137,7 @@ function load()
     end)
     if not status then
         return g_logger.warning(
-                   "Error while reading profiles file. To fix this problem you can delete storage.json. Details: " ..
+                   "Error while reading profiles file. To fix this problem, delete profiles.json. Details: " ..
                        result)
     end
     settings = result
@@ -149,7 +149,7 @@ function save()
   local status, result = pcall(function() return json.encode(settings, 2) end)
   if not status then
       return g_logger.warning(
-                 "Error while saving profile settings. Data won't be saved. Details: " ..
+                 "Error while saving profiles file. Data won't be saved. Details: " ..
                      result)
   end
   if result:len() > 100 * 1024 * 1024 then
