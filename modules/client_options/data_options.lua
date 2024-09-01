@@ -340,7 +340,7 @@ return {
         end
     },
     showSpellGroupCooldowns           = {
-        value = true,
+        value = false,
         action = function(value, options, controller, panels, extraWidgets)
             modules.game_cooldown.setSpellGroupCooldownsVisible(value)
         end
