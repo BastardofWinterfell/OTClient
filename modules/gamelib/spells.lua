@@ -66,7 +66,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Flame Strike'] = {
             id = 89,
@@ -82,7 +82,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Strong Flame Strike'] = {
             id = 150,
@@ -99,7 +99,7 @@ SpellInfo = {
                 [4] = 8000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Ultimate Flame Strike'] = {
             id = 154,
@@ -116,7 +116,7 @@ SpellInfo = {
                 [7] = 30000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Energy Strike'] = {
             id = 88,
@@ -132,7 +132,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Strong Energy Strike'] = {
             id = 151,
@@ -149,7 +149,7 @@ SpellInfo = {
                 [4] = 8000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Ultimate Energy Strike'] = {
             id = 155,
@@ -166,7 +166,7 @@ SpellInfo = {
                 [7] = 30000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Whirlwind Throw'] = {
             id = 107,
@@ -182,7 +182,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Fire Wave'] = {
             id = 19,
@@ -198,7 +198,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Ethereal Spear'] = {
             id = 111,
@@ -214,7 +214,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Strong Ethereal Spear'] = {
             id = 57,
@@ -230,7 +230,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Energy Beam'] = {
             id = 22,
@@ -246,7 +246,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Great Energy Beam'] = {
             id = 23,
@@ -263,7 +263,7 @@ SpellInfo = {
                 [8] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Groundshaker'] = {
             id = 106,
@@ -279,7 +279,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Berserk'] = {
             id = 80,
@@ -295,7 +295,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Annihilation'] = {
             id = 62,
@@ -311,7 +311,7 @@ SpellInfo = {
                 [1] = 4000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Brutal Strike'] = {
             id = 61,
@@ -327,7 +327,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Front Sweep'] = {
             id = 59,
@@ -343,7 +343,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Inflict Wound'] = {
             id = 141,
@@ -359,7 +359,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Ignite'] = {
             id = 138,
@@ -375,7 +375,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Lightning'] = {
             id = 149,
@@ -392,7 +392,7 @@ SpellInfo = {
                 [4] = 8000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Curse'] = {
             id = 139,
@@ -408,7 +408,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Electrify'] = {
             id = 140,
@@ -424,7 +424,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Energy Wave'] = {
             id = 13,
@@ -440,7 +440,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Rage of the Skies'] = {
             id = 119,
@@ -457,7 +457,7 @@ SpellInfo = {
                 [6] = 40000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Fierce Berserk'] = {
             id = 105,
@@ -473,7 +473,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Hells Core'] = {
             id = 24,
@@ -490,7 +490,7 @@ SpellInfo = {
                 [6] = 40000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Holy Flash'] = {
             id = 143,
@@ -506,7 +506,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Divine Missile'] = {
             id = 122,
@@ -522,7 +522,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Divine Caldera'] = {
             id = 124,
@@ -538,7 +538,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Physical Strike'] = {
             id = 148,
@@ -554,7 +554,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Eternal Winter'] = {
             id = 118,
@@ -571,7 +571,7 @@ SpellInfo = {
                 [6] = 40000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ice Strike'] = {
             id = 112,
@@ -587,7 +587,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5, 2, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Strong Ice Strike'] = {
             id = 152,
@@ -604,7 +604,7 @@ SpellInfo = {
                 [4] = 8000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ultimate Ice Strike'] = {
             id = 156,
@@ -621,7 +621,7 @@ SpellInfo = {
                 [7] = 30000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ice Wave'] = {
             id = 121,
@@ -637,7 +637,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Strong Ice Wave'] = {
             id = 43,
@@ -653,7 +653,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Envenom'] = {
             id = 142,
@@ -669,7 +669,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Terra Strike'] = {
             id = 113,
@@ -685,7 +685,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {1, 5, 2, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Strong Terra Strike'] = {
             id = 153,
@@ -702,7 +702,7 @@ SpellInfo = {
                 [4] = 8000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ultimate Terra Strike'] = {
             id = 157,
@@ -719,7 +719,7 @@ SpellInfo = {
                 [7] = 30000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Terra Wave'] = {
             id = 120,
@@ -735,7 +735,7 @@ SpellInfo = {
                 [1] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Wrath of Nature'] = {
             id = 56,
@@ -752,7 +752,7 @@ SpellInfo = {
                 [6] = 40000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Light Healing'] = {
             id = 1,
@@ -768,7 +768,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {1, 2, 3, 5, 6, 7}
+            vocations = {2, 3, 4, 12, 13, 14}
         },
         ['Wound Cleansing'] = {
             id = 123,
@@ -784,7 +784,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Intense Wound Cleansing'] = {
             id = 158,
@@ -800,7 +800,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Cure Bleeding'] = {
             id = 144,
@@ -816,7 +816,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Cure Electrification'] = {
             id = 146,
@@ -832,7 +832,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Cure Poison'] = {
             id = 29,
@@ -848,7 +848,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Cure Burning'] = {
             id = 145,
@@ -864,7 +864,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Cure Curse'] = {
             id = 147,
@@ -880,7 +880,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Recovery'] = {
             id = 159,
@@ -896,7 +896,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {4, 8, 3, 7}
+            vocations = {1, 2, 11, 12}
         },
         ['Intense Recovery'] = {
             id = 160,
@@ -912,7 +912,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {4, 8, 3, 7}
+            vocations = {1, 2, 11, 12}
         },
         ['Salvation'] = {
             id = 36,
@@ -928,7 +928,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Intense Healing'] = {
             id = 2,
@@ -944,7 +944,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {1, 2, 3, 5, 6, 7}
+            vocations = {2, 3, 4, 12, 13, 14}
         },
         ['Heal Friend'] = {
             id = 84,
@@ -960,7 +960,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = true,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ultimate Healing'] = {
             id = 3,
@@ -976,7 +976,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Mass Healing'] = {
             id = 82,
@@ -992,7 +992,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Divine Healing'] = {
             id = 125,
@@ -1008,7 +1008,7 @@ SpellInfo = {
                 [2] = 1000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Light'] = {
             id = 10,
@@ -1024,7 +1024,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Find Person'] = {
             id = 20,
@@ -1040,7 +1040,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = true,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Magic Rope'] = {
             id = 76,
@@ -1056,7 +1056,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Levitate'] = {
             id = 81,
@@ -1072,7 +1072,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = true,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Great Light'] = {
             id = 11,
@@ -1088,7 +1088,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Magic Shield'] = {
             id = 44,
@@ -1104,7 +1104,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Haste'] = {
             id = 6,
@@ -1120,7 +1120,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
         ['Charge'] = {
             id = 131,
@@ -1136,7 +1136,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Swift Foot'] = {
             id = 134,
@@ -1153,7 +1153,7 @@ SpellInfo = {
                 [6] = 10000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Challenge'] = {
             id = 93,
@@ -1169,7 +1169,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {8}
+            vocations = {11}
         },
         ['Strong Haste'] = {
             id = 39,
@@ -1185,7 +1185,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Creature Illusion'] = {
             id = 38,
@@ -1201,7 +1201,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = true,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Ultimate Light'] = {
             id = 75,
@@ -1217,7 +1217,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Cancel Invisibility'] = {
             id = 90,
@@ -1233,7 +1233,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Invisibility'] = {
             id = 45,
@@ -1249,7 +1249,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Sharpshooter'] = {
             id = 135,
@@ -1266,7 +1266,7 @@ SpellInfo = {
                 [6] = 10000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Protector'] = {
             id = 132,
@@ -1283,7 +1283,7 @@ SpellInfo = {
                 [6] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Blood Rage'] = {
             id = 133,
@@ -1300,7 +1300,7 @@ SpellInfo = {
                 [6] = 2000
             },
             parameter = false,
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Train Party'] = {
             id = 126,
@@ -1316,7 +1316,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {8}
+            vocations = {11}
         },
         ['Protect Party'] = {
             id = 127,
@@ -1332,7 +1332,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {7}
+            vocations = {12}
         },
         ['Heal Party'] = {
             id = 128,
@@ -1348,7 +1348,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {6}
+            vocations = {14}
         },
         ['Enchant Party'] = {
             id = 129,
@@ -1364,7 +1364,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {5}
+            vocations = {13}
         },
         ['Summon Creature'] = {
             id = 9,
@@ -1380,7 +1380,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = true,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Conjure Arrow'] = {
             id = 51,
@@ -1396,7 +1396,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Food'] = {
             id = 42,
@@ -1412,7 +1412,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Conjure Poisoned Arrow'] = {
             id = 48,
@@ -1428,7 +1428,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Conjure Bolt'] = {
             id = 79,
@@ -1444,7 +1444,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Conjure Sniper Arrow'] = {
             id = 108,
@@ -1460,7 +1460,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Conjure Explosive Arrow'] = {
             id = 49,
@@ -1476,7 +1476,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Conjure Piercing Bolt'] = {
             id = 109,
@@ -1492,7 +1492,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Enchant Staff'] = {
             id = 92,
@@ -1508,7 +1508,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {5}
+            vocations = {13}
         },
         ['Enchant Spear'] = {
             id = 110,
@@ -1524,7 +1524,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Conjure Power Bolt'] = {
             id = 95,
@@ -1540,7 +1540,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {7}
+            vocations = {12}
         },
         ['Poison Field'] = {
             id = 26,
@@ -1556,7 +1556,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Light Magic Missile'] = {
             id = 7,
@@ -1572,7 +1572,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Fire Field'] = {
             id = 25,
@@ -1588,7 +1588,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Fireball'] = {
             id = 15,
@@ -1604,7 +1604,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Energy Field'] = {
             id = 27,
@@ -1620,7 +1620,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Stalagmite'] = {
             id = 77,
@@ -1636,7 +1636,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5, 2, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Great Fireball'] = {
             id = 16,
@@ -1652,7 +1652,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Heavy Magic Missile'] = {
             id = 8,
@@ -1668,7 +1668,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5, 2, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Poison Bomb'] = {
             id = 91,
@@ -1684,7 +1684,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Firebomb'] = {
             id = 17,
@@ -1700,7 +1700,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Soulfire'] = {
             id = 50,
@@ -1716,7 +1716,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Poison Wall'] = {
             id = 32,
@@ -1732,7 +1732,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Explosion'] = {
             id = 18,
@@ -1748,7 +1748,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Fire Wall'] = {
             id = 28,
@@ -1764,7 +1764,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Energybomb'] = {
             id = 55,
@@ -1780,7 +1780,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Energy Wall'] = {
             id = 33,
@@ -1796,7 +1796,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Sudden Death'] = {
             id = 21,
@@ -1812,7 +1812,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Cure Poison Rune'] = {
             id = 31,
@@ -1828,7 +1828,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Intense Healing Rune'] = {
             id = 4,
@@ -1844,7 +1844,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Ultimate Healing Rune'] = {
             id = 5,
@@ -1860,7 +1860,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Convince Creature'] = {
             id = 12,
@@ -1876,7 +1876,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Animate Dead'] = {
             id = 83,
@@ -1892,7 +1892,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ['Chameleon'] = {
             id = 14,
@@ -1908,7 +1908,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Destroy Field'] = {
             id = 30,
@@ -1924,7 +1924,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 5, 6, 7}
+            vocations = {2, 3, 4, 12, 13, 14}
         },
         ['Desintegrate'] = {
             id = 78,
@@ -1940,7 +1940,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 2, 3, 5, 6, 7}
+            vocations = {2, 3, 4, 12, 13, 14}
         },
         ['Magic Wall'] = {
             id = 86,
@@ -1956,7 +1956,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Wild Growth'] = {
             id = 94,
@@ -1972,7 +1972,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Paralyze'] = {
             id = 54,
@@ -1988,7 +1988,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Icicle'] = {
             id = 114,
@@ -2004,7 +2004,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Avalanche'] = {
             id = 115,
@@ -2020,7 +2020,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Stone Shower'] = {
             id = 116,
@@ -2036,7 +2036,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Thunderstorm'] = {
             id = 117,
@@ -2052,7 +2052,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Holy Missile'] = {
             id = 130,
@@ -2068,7 +2068,7 @@ SpellInfo = {
                 [3] = 2000
             },
             parameter = false,
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
 
     -- fixed spells from OTCv8, version 11.40.5
@@ -2085,7 +2085,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ['Summon Knight Familiar'] = {
             id = 194,
@@ -2100,7 +2100,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Summon Druid Familiar'] = {
             id = 197,
@@ -2115,7 +2115,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ['Summon Sorcerer Familiar'] = {
             id = 196,
@@ -2130,7 +2130,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Chivalrous Challenge'] = {
             id = 237,
@@ -2145,7 +2145,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Fair Wound Cleansing'] = {
             id = 239,
@@ -2160,7 +2160,7 @@ SpellInfo = {
             group = {
                 [2] = 1000
             },
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ['Conjure Wand of Darkness'] = {
             id = 92,
@@ -2175,7 +2175,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {5}
+            vocations = {13}
         },
         ['Expose Weakness'] = {
             id = 243,
@@ -2191,7 +2191,7 @@ SpellInfo = {
                 [3] = 2000,
                 [5] = 12000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Sap Strenght'] = {
             id = 244,
@@ -2207,7 +2207,7 @@ SpellInfo = {
                 [3] = 2000,
                 [5] = 12000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Great Fire Wave'] = {
             id = 240,
@@ -2222,7 +2222,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ['Restoration'] = {
             id = 241,
@@ -2237,7 +2237,7 @@ SpellInfo = {
             group = {
                 [2] = 1000
             },
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
         ["Nature's Embrace"] = {
             id = 242,
@@ -2252,7 +2252,7 @@ SpellInfo = {
             group = {
                 [2] = 1000
             },
-            vocations = {2, 6},
+            vocations = {4, 14},
             parameter = true
         },
         ['Divine Dazzle'] = {
@@ -2268,7 +2268,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {7}
+            vocations = {12}
         },
     -- /fixed spells from OTCv8, version 11.40.5
 
@@ -2331,7 +2331,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {1, 2, 5, 6}
+            vocations = {3, 4, 13, 14}
         },
  
     -- /spells from version 9.80
@@ -2350,7 +2350,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ["Chill Out"] = {
             id = 173,
@@ -2365,7 +2365,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {2, 6}
+            vocations = {4, 14}
         },
         ["Magic Patch"] = {
             id = 174,
@@ -2380,7 +2380,7 @@ SpellInfo = {
             group = {
                 [2] = 1000
             },
-            vocations = {1,2, 3, 5, 6, 7}
+            vocations = {2, 3, 4, 12, 13, 14}
         },
         ["Bruise Bane"] = {
             id = 175,
@@ -2395,7 +2395,7 @@ SpellInfo = {
             group = {
                 [2] = 1000
             },
-            vocations = {4, 8}
+            vocations = {1, 11}
         },
         ["Arrow Call"] = {
             id = 176,
@@ -2410,7 +2410,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {3, 7}
+            vocations = {2, 12}
         },
         ["Buzz"] = {
             id = 177,
@@ -2425,7 +2425,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
         ["Scorch"] = {
             id = 178,
@@ -2440,7 +2440,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {1, 5}
+            vocations = {3, 13}
         },
     -- /spells from version 10.55
 
@@ -2460,7 +2460,7 @@ SpellInfo = {
                 [3] = 2000
 --                conjure = 600000
             },
-            vocations = {7}
+            vocations = {12}
         },
         ["Conjure Spectral Bolt"] = {
             id = 193,
@@ -2476,7 +2476,7 @@ SpellInfo = {
                 [3] = 2000
 --                conjure = 600000
             },
-            vocations = {7}
+            vocations = {12}
         },
  
     -- /spells from version 11.40.5.409 - removed in new version
@@ -2495,7 +2495,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {1, 2, 3, 4, 5, 6, 7, 8}
+            vocations = {1, 2, 3, 4, 11, 12, 13, 14}
         },
     -- /spells from version 12.80.11430
 
@@ -2515,7 +2515,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {7}
+            vocations = {12}
         },
         ["Avatar of Nature"] = {
             id = __TFS_ID__, -- fix me
@@ -2530,7 +2530,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {6}
+            vocations = {14}
         },
         ["Avatar of Steel"] = {
             id = __TFS_ID__, -- fix me
@@ -2545,7 +2545,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {8}
+            vocations = {11}
         },
         ["Avatar of Storm"] = {
             id = __TFS_ID__, -- fix me
@@ -2560,7 +2560,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {5}
+            vocations = {13}
         },
         ["Divine Empowerment"] = {
             id = __TFS_ID__, -- fix me
@@ -2575,7 +2575,7 @@ SpellInfo = {
             group = {
                 [3] = 2000
             },
-            vocations = {7}
+            vocations = {12}
         },
         ["Divine Grenade"] = {
             id = __TFS_ID__, -- fix me
@@ -2590,7 +2590,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {7}
+            vocations = {12}
         },
         ["Executioner's Throw"] = {
             id = __TFS_ID__, -- fix me
@@ -2605,7 +2605,7 @@ SpellInfo = {
             group = {
                 [1] = 2000
             },
-            vocations = {8}
+            vocations = {11}
         },
         ["Gift of Life"] = {
             id = __TFS_ID__, -- fix me
@@ -2636,7 +2636,7 @@ SpellInfo = {
                 [1] = 2000,
                 [8] = 6000
             },
-            vocations = {5}
+            vocations = {13}
         },
         ["Ice Burst"] = {
             id = __TFS_ID__, -- fix me
@@ -2652,7 +2652,7 @@ SpellInfo = {
                 [1] = 2000,
                 [9] = 6000
             },
-            vocations = {6}
+            vocations = {14}
         },
         ["Terra Burst"] = {
             id = __TFS_ID__, -- fix me
@@ -2668,21 +2668,21 @@ SpellInfo = {
                 [1] = 2000,
                 [9] = 6000
             },
-            vocations = {6}
+            vocations = {14}
         },
     -- /spells from version 13.10.12852
 ]]
 
     } --[[,
   ['Custom'] = {
-    ['Chain Lighting'] =           {id = 1, words = 'exori chain vis',        description = 'Chained attack pattern lightning strike.',                     exhaustion = 2000,  premium = false, type = 'Instant', icon = 1,  mana = 650,  level = 90, soul = 0, group = {[1] = 2000}, vocations = {5}},
-    ['Chain Healing'] =            {id = 2, words = 'exura chain frigo',      description = 'Chained healing that deals ice damage to adjacent creatures.', exhaustion = 2000,  premium = false, type = 'Instant', icon = 2,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {6}},
-    ['Divine Chain'] =             {id = 3, words = 'exori chain san',        description = 'Chained attack pattern holy strike.',                          exhaustion = 2000,  premium = false, type = 'Instant', icon = 3,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {7}},
-    ['Berserk Chain'] =            {id = 4, words = 'exori chain mas',        description = 'Bouncing exori that challenges creatures.',                    exhaustion = 2000,  premium = false, type = 'Instant', icon = 4,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {8}},
-    ['Cheat death'] =              {id = 5, words = 'exura prohibere mortem', description = 'Recover from an otherwise fatal killing blow.',                exhaustion = 2000,  premium = false, type = 'Instant', icon = 5,  mana = 500,  level = 100, soul = 0, group = {[2] = 2000}, vocations = {6}},
-    ['Brutal Charge'] =            {id = 6, words = 'exori tempo hur',        description = 'Quick charge attack that challenges target.',                  exhaustion = 2000,  premium = false, type = 'Instant', icon = 6,  mana = 80,   level = 60, soul = 0, group = {[1] = 2000}, vocations = {8}},
-    ['Empower Summons'] =          {id = 7, words = 'utevo gran res',         description = 'Empower summons with extra strength and intelligence.',        exhaustion = 2000,  premium = false, type = 'Instant', icon = 7,  mana = 1800, level = 70, soul = 25, group = {[2] = 2000}, vocations = {6}},
-    ['Summon Doppelganger'] =      {id = 8, words = 'utevo duplex res',       description = 'Summon a Doppelganger of yourself to assist you.',             exhaustion = 2000,  premium = false, type = 'Instant', icon = 8,  mana = 1105, level = 100, soul = 25, group = {[2] = 2000}, vocations = {7}}
+    ['Chain Lighting'] =           {id = 1, words = 'exori chain vis',        description = 'Chained attack pattern lightning strike.',                     exhaustion = 2000,  premium = false, type = 'Instant', icon = 1,  mana = 650,  level = 90, soul = 0, group = {[1] = 2000}, vocations = {13}},
+    ['Chain Healing'] =            {id = 2, words = 'exura chain frigo',      description = 'Chained healing that deals ice damage to adjacent creatures.', exhaustion = 2000,  premium = false, type = 'Instant', icon = 2,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {14}},
+    ['Divine Chain'] =             {id = 3, words = 'exori chain san',        description = 'Chained attack pattern holy strike.',                          exhaustion = 2000,  premium = false, type = 'Instant', icon = 3,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {12}},
+    ['Berserk Chain'] =            {id = 4, words = 'exori chain mas',        description = 'Bouncing exori that challenges creatures.',                    exhaustion = 2000,  premium = false, type = 'Instant', icon = 4,  mana = 160,  level = 60, soul = 0, group = {[1] = 2000}, vocations = {11}},
+    ['Cheat death'] =              {id = 5, words = 'exura prohibere mortem', description = 'Recover from an otherwise fatal killing blow.',                exhaustion = 2000,  premium = false, type = 'Instant', icon = 5,  mana = 500,  level = 100, soul = 0, group = {[2] = 2000}, vocations = {14}},
+    ['Brutal Charge'] =            {id = 6, words = 'exori tempo hur',        description = 'Quick charge attack that challenges target.',                  exhaustion = 2000,  premium = false, type = 'Instant', icon = 6,  mana = 80,   level = 60, soul = 0, group = {[1] = 2000}, vocations = {11}},
+    ['Empower Summons'] =          {id = 7, words = 'utevo gran res',         description = 'Empower summons with extra strength and intelligence.',        exhaustion = 2000,  premium = false, type = 'Instant', icon = 7,  mana = 1800, level = 70, soul = 25, group = {[2] = 2000}, vocations = {14}},
+    ['Summon Doppelganger'] =      {id = 8, words = 'utevo duplex res',       description = 'Summon a Doppelganger of yourself to assist you.',             exhaustion = 2000,  premium = false, type = 'Instant', icon = 8,  mana = 1105, level = 100, soul = 25, group = {[2] = 2000}, vocations = {12}}
   }]]
 }
 
@@ -2876,14 +2876,14 @@ SpellIcons = {
 
 VocationNames = {
     [0] = 'None',
-    [1] = 'Sorcerer',
-    [2] = 'Druid',
-    [3] = 'Paladin',
-    [4] = 'Knight',
-    [5] = 'Master Sorcerer',
-    [6] = 'Elder Druid',
-    [7] = 'Royal Paladin',
-    [8] = 'Elite Knight'
+    [1] = 'Knight',
+    [2] = 'Paladin',
+    [3] = 'Sorcerer',
+    [4] = 'Druid',
+    [11] = 'Elite Knight',
+    [12] = 'Royal Paladin',
+    [13] = 'Master Sorcerer',
+    [14] = 'Elder Druid'
 }
 
 SpellGroups = {
