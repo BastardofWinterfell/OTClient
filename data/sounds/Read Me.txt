@@ -1,0 +1,6 @@
+All voice sounds effects here were created using 
+Voicemaker, at the website https//voicemaker.in, 
+using the Pro1 'Catherine - soft and friendly (F)' 
+voice. Voice settings were left at default and
+audio settings was changed to 'OGG - 48000Hz'.
+
