@@ -28,10 +28,11 @@ game
     diagonal-walk-speed: 3
 
   render
-    invisible-ticks-per-frame: 300
-    item-ticks-per-frame: 300
-    effect-ticks-per-frame: 225
-    missile-ticks-per-frame: 150
+    draw-covered-things: true
+    invisible-ticks-per-frame: 500
+    item-ticks-per-frame: 500
+    effect-ticks-per-frame: 75
+    missile-ticks-per-frame: 75
     animated-text-duration: 1000
     static-duration-per-character: 60
     min-static-text-duration: 3000
