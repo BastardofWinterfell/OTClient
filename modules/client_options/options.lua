@@ -14,7 +14,7 @@ local panels = {
 -- LuaFormatter off
 local buttons = {{
 
-    text = "Controls",
+    text = "General",
     icon = "/images/icons/icon_controls",
     open = "generalPanel"
     --[[     subCategories = {{
