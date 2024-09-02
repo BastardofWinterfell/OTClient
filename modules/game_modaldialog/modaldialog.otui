@@ -33,14 +33,16 @@ ModalButton < Button
   margin-top: 2
   margin-bottom: 2
   margin-left: 2
+  font: cipsoftFont
 
   $pressed:
     text-offset: 0 0
 
 ModalDialog < MainWindow
   id: modalDialog
-  size: 280 97
-  &minimumWidth: 200
+  size: 280 96
+  padding: 35 20 10 20
+  &minimumWidth: 240
   &maximumWidth: 600
   &minimumChoices: 4
   &maximumChoices: 10
@@ -59,6 +61,7 @@ ModalDialog < MainWindow
     anchors.left: parent.left
     anchors.right: parent.right
     anchors.bottom: next.top
+    margin-bottom: 6
 
   Panel
     id: buttonsPanel
