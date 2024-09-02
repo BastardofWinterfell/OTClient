@@ -158,7 +158,7 @@ function onContainerOpen(container, previousContainer)
     containerWindow:setContentMaximumHeight(cellSize.height * layout:getNumLines() + 15)
 
     if not previousContainer then
-        local panel = modules.game_interface.findContentPanelAvailable(containerWindow, cellSize.height)
+        local panel = modules.game_interface.getRightExtraPanel() or modules.game_interface.getRightPanel()
         panel:addChild(containerWindow)
 
         if modules.client_options.getOption('openMaximized') then
