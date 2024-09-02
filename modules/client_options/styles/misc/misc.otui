@@ -18,7 +18,10 @@ UIWidget
     height: 55
     margin-top: 10
     Label
-      text: User Profile
+      !text: tr('User Profile')
+      color: #c0c0c0ff
+      anchors.left: parent.left
+      margin-left: 2
     ComboBox
       id: profile
       margin-top: 3
