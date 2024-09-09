@@ -150,7 +150,7 @@ function refresh()
   if settings[index] == nil then
     settings[index] = {
       enabled=false,
-      config=""
+      config="vBot"
     }
   end
 
@@ -236,11 +236,11 @@ function save()
     return json.encode(botStorage, 2)
   end)
   if not status then
-    return onError("Error while saving bot storage. Storage won't be saved. Details: " .. result)
+    return onError("Error while saving bot storage file. Details: " .. result)
   end
 
   if result:len() > 100 * 1024 * 1024 then
-    return onError("Storage file is too big, above 100MB, it won't be saved")
+    return onError("Bot storage file is too large to be saved (above 100MB).")
   end
 
   g_resources.writeFileContents(botStorageFile, result)
@@ -278,7 +278,7 @@ end
 function onError(message)
   statusLabel:setOn(true)
   statusLabel:setText("Error:\n" .. message)
-  g_logger.error("[BOT] " .. message)
+  g_logger.error("[Bot] " .. message)
 end
 
 function edit()
@@ -435,15 +435,15 @@ function message(category, msg)
   if category == 'error' then
     widget:setText(msg)
     widget:setColor("red")
-    g_logger.error("[BOT] " .. msg)
+    g_logger.error("[Bot] " .. msg)
   elseif category == 'warn' then
     widget:setText(msg)
     widget:setColor("yellow")
-    g_logger.warning("[BOT] " .. msg)
+    g_logger.warning("[Bot] " .. msg)
   elseif category == 'info' then
     widget:setText(msg)
     widget:setColor("white")
-    g_logger.info("[BOT] " .. msg)
+    g_logger.info("[Bot] " .. msg)
   end
 
   if botMessages:getChildCount() > 5 then
