@@ -64,9 +64,8 @@ UI.Container = function(callback, unique, parent, widget)
         widget:setImageSource("/images/ui/item-blessed")
       end
       if type(items[i]) == 'number' then
-        items[i] = { id = items[i], count = 1 }
-      end
-      if type(items[i]) == 'table' then
+        widget:setItem(Item.create(items[i], 1))
+      elseif type(items[i]) == 'table' then
         widget:setItem(Item.create(items[i].id, items[i].count))
       end
     end
